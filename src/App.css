@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  background-color: #4c6a92;
+  height: 100vh;
+}
+div.header {
+  padding: 20px;
+  background-color: #005960;
+  color: #fff;
+  font-size: 32px;
+}
+.container {
+  background-color: #fff;
+  margin: 50px auto;
+  width: 80%;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  box-sizing: border-box;
+  box-shadow: 0px 5px 10px #ccc;
+  -webkit-box-shadow: 5px #eee;
+  padding: 10px;
+  text-align: center;
+}
+div.label-controls span {
+  float: left;
+}
+.controls {
+  float: right;
+}
+div.label-controls textarea {
+  margin-top: 20px;
+  width: 100%;
+  min-height: 120px;
+  resize: none;
+}
+div.language-output {
+  width: 77%;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0px 4px 7px #eee;
+  padding: 10px;
+}
+div.detected-lang {
+  width: 60%;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: lightgray;
+  border-radius: 10px;
+}
