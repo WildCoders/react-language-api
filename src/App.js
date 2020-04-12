@@ -24,7 +24,7 @@ class App extends Component {
 
   submitHandler = () => {
     var request_uri =
-      "http://apilayer.net/api/detect?access_key=b01a74a07356338e4f9e8ab80029ad1e&query=" +
+      "http://api.languagelayer.com/detect?access_key=b01a74a07356338e4f9e8ab80029ad1e&query=" +
       encodeURIComponent(this.state.inputText);
 
     // Make a request for a user with a given ID
